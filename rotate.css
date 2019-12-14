@@ -1,0 +1,42 @@
+#right-wheel {
+  animation: wheel 1s infinite linear;
+}
+
+#main-bike {
+animation: bike 1s ease-in-ou infinite alternate;
+  transform-origin: bottom;
+}
+#hat {
+animation: hat 1s ease-in-ou infinite alternate;
+}
+@keyframes wheel {
+from {
+    transform: rotateZ(0deg);
+    transform-origin: center;
+    transform-box: fill-box;
+    }
+ to {
+   transform: rotateZ(360deg);
+ }
+}
+
+@keyframes bike {
+from {
+    transform: rotateX(0deg);
+ 
+    }
+ to {
+   transform: rotateX(20deg);
+ }
+}
+
+@keyframes hat {
+from {
+    transform: rotateY(0%) rotateZ(0deg);;
+    transform-origin: center;
+    transform-box: fill-box;
+    }
+ to {
+   transform: rotateY(20%) rotateZ(20deg);;
+ }
+}
