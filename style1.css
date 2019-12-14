@@ -1,0 +1,75 @@
+button {
+  animation: fade 1s ease forwards;
+}
+  
+  @keyframes fade {
+    from { 
+       opacity: 1;
+       pointer-events: all;
+    }
+    to { 
+       opacity: 0;
+        pointer-events: none;
+    }
+   }
+   
+   
+   //display inline no height, no width, margin no top no bottom, only left and right
+   
+   // div in center
+   div {
+     ...
+     margin: auto;
+   }
+   
+   
+   p:: selection {
+     background:
+     color:
+   }
+   
+   p::first-letter {
+     font-size: 2rem;
+   }
+   
+   <a href="#gallery">...</a>   
+   <section id="gallery"> ... </section>
+   html {
+     scroll-behavior: smooth;
+   }
+   
+   html {
+     background: black;
+     filter: invert(1);
+   }
+   
+   div {
+   box-shadow: 0px 10px 10px rgba(0,0,0,0.2), 
+               0px 40px 40px rgba(0,0,0,0.5);
+   animation: fade 1s ease;
+   }
+   
+   h1 {
+  font-size: 4rem;
+  background: linear-gradient(to left, rgb(112,101,214), 
+                                       rgb(230,106,213));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline;
+   }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
